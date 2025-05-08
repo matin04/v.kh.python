@@ -1,11 +1,12 @@
-# while 4. /////////////////////
+# while 5. /////////////////////
 
+a=int(input())
 n=int(input())
-k=int(input())
-c=1
-i=0
-while i<k:
-    c*=(n-1)
-    c//=(i+1)  
+s=1
+p=1
+i=1
+while i<=n:
+    p*=a 
+    s+=p
     i+=1
-print(c) 
+print(s) 
