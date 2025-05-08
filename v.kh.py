@@ -1,7 +1,9 @@
-# while 1. /////////////////////
+# while 2. /////////////////////
 
 n=int(input())
 i=0
+s=0
 while i<n:
     i+=1
-print(2**i)
+    s+=i**2
+print(s)
