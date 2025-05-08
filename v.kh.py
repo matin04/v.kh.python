@@ -1,12 +1,12 @@
-# for 5. /////////////////////
+# for 6. /////////////////////
 
 
-a=int(input())
+
 n=int(input())
 s=1
 p=1
 for i in range(1,n+1):
-         p*=a
+         p*=2
          s+=p
 print(s)
 
