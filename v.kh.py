@@ -1,11 +1,14 @@
-# while 6. /////////////////////
+# while 7. /////////////////////
 
-n=int(input())
-s=1
-p=1
-i=1
-while i<=n:
+a=float(input())
+b=float(input())
+k=1
+l=abs(b)
+i=0
+while i<l:
+    k*=a
     i+=1
-    p*=2 
-    s+=p 
-print(s) 
+if(b<0):
+   print(1/k)
+else:
+    print(k)
