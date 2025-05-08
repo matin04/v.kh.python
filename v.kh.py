@@ -1,12 +1,15 @@
-# for 10. /////////////////////
+# for 11. /////////////////////
 
 
 
 n=int(input())
-k=0
-for i in range(0,n+1):
-    k+=((-1)**i)/(2*i+1)
-print(4*k)
+n1=0
+n2=1
+for i in range(0,n):
+    n3=n1+n2
+    n1=n2
+    n2=n3   
+print(n1)
 
 
 
