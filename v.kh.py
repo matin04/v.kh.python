@@ -1,16 +1,12 @@
-# for 7. /////////////////////
+# for 8. /////////////////////
 
 
 
 n=int(input())
-m=int(input())
-l=abs(m)
-k=1
-for i in range(0,l):
-         k*=n
-if m<0:
-   print(1/k)
-else: print(k)
+k=0
+for i in range(1,n+1):
+    k+=1/(i*i)
+print(k)
 
 
 
