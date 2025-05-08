@@ -1,12 +1,13 @@
-# for 4. /////////////////////
+# for 5. /////////////////////
 
 
+a=int(input())
 n=int(input())
-k=int(input())
 s=1
-for i in range(1,k+1):
-         s*=(n-i+1)
-         s//=i
+p=1
+for i in range(1,n+1):
+         p*=a
+         s+=p
 print(s)
 
 
