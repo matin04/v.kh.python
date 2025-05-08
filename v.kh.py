@@ -1,12 +1,20 @@
-# while 10. /////////////////////
+# while 11. /////////////////////
 
 n=float(input())
-k=0
+n1=0
+n2=1
 i=0
-while i<=n:
-    k+=((-1)**i)/(2*i+1)
-    i+=1
-print(4*k)
+while i<n:
+   n3=n1+n2
+   n1=n2
+   n2=n3
+   i+=1
+print(n1)
+
+
+
+
+
 
 
 
